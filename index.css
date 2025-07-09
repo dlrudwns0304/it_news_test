@@ -60,7 +60,7 @@ section > h1 {
     gap: 12px;
     max-width: 100%;
 }
-
+.card img {width:400px; height:200px;}
 .card h2 {
     font-size: 1rem;
     font-weight: 600;
@@ -71,4 +71,21 @@ section > h1 {
     font-size: 0.875rem;
     line-height: 1.6;
     color: #333;
+}
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+footer h1 img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+
 }
